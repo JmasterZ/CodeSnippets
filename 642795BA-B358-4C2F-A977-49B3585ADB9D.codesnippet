@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CcolltcionView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+layout.itemSize = &lt;#CGSize#&gt;;
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal or UICollectionViewScrollDirectionVertical;
+layout.minimumLineSpacing = &lt;#行间距#&gt;;
+layout.minimumInteritemSpacing = &lt;#间距#&gt;;
+layout.sectionInset = UIEdgeInsetsMake(&lt;#top#&gt;, &lt;#left#&gt;, &lt;#bottom#&gt;, &lt;#right#&gt;);
+        
+&lt;#对象#&gt; = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:layout];
+        &lt;#对象#&gt; .backgroundColor = [UIColor whiteColor];
+        &lt;#对象#&gt; .delegate = self;
+        &lt;#对象#&gt; .dataSource = self;
+        &lt;#对象#&gt; .showsHorizontalScrollIndicator = NO;
+        
+        [&lt;#对象#&gt;  registerClass:&lt;#(nullable Class)#&gt; forCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt;]
+        [&lt;#对象#&gt;  registerClass:&lt;#(nullable Class)#&gt; forSupplementaryViewOfKind:&lt;#(nonnull NSString *)#&gt; withReuseIdentifier:&lt;#(nonnull NSString *)#&gt;]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>642795BA-B358-4C2F-A977-49B3585ADB9D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CreatCollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
